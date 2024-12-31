@@ -89,6 +89,27 @@ public class Member
 }
 ```
 
+## 🏗️ Architecture & Design Patterns
+
+### Clean Architecture
+The project follows clean architecture principles with clear separation of concerns:
+
+```
+LibraryManagement/
+├── Controllers/         # API endpoints
+├── Models/             # Domain entities
+├── DTOs/               # Data Transfer Objects
+├── Repositories/       # Data access layer
+├── Services/           # Business logic
+├── Data/               # Database context
+└── Migrations/         # Database migrations
+```
+### Clean Code Practices
+### DTO Pattern
+
+
+
+
 ## 🔄 Future Enhancements
 
 1. **Authentication & Authorization**
@@ -113,3 +134,4 @@ public class Member
 ## 👥 Authors
 
 * **Mohamed Gomaa** - *Initial work* - [Mohamed Gomaa](https://github.com/Moh-Gomma)
+
